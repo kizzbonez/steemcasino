@@ -30,9 +30,9 @@ function SetProfileInfo()
 				var url=location.href;
 				var urlFilename = url.substring(url.lastIndexOf('/')+1);
 		
-				if(urlFilename != "index.php")
+				if(urlFilename != "index.php" && urlFilename != "credits.php")
 				{
-					window.location.href = "http://localhost/index.php";
+					window.location.href = "https://steemcasino.org/index.php";
 				}
 				
 				var loginUrl = sc2.getLoginURL();
@@ -45,9 +45,9 @@ function SetProfileInfo()
 		var url=location.href;
 		var urlFilename = url.substring(url.lastIndexOf('/')+1);
 		
-		if(urlFilename != "index.php")
+		if(urlFilename != "index.php" && urlFilename != "credits.php")
 		{
-			window.location.href = "http://localhost/index.php";
+			window.location.href = "https://steemcasino.org/index.php";
 		}
 		
 		var loginUrl = sc2.getLoginURL();
