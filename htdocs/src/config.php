@@ -1,5 +1,5 @@
 <?php
 $botaccount = "meme-bot";
-$websiteadress = "http://localhost";
+$websiteadress = "https://steemcasino.org";
 $isMaintenance = false;
 ?>
